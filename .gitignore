@@ -8,3 +8,28 @@ scalabuff-compiler/target
 scalabuff-runtime/bin
 scalabuff-runtime/doc
 scalabuff-runtime/target
+
+# idea
+.idea
+*.iml
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+#*.off
+*.old
+!.gitignore
